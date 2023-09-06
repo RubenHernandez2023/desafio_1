@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap');
+
+*{  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin:0px;
+}
+
+body{background-image:url(./IMAGENES/codoacodo.png);} 
+
+.nav{
+    background-color: black;
+    /* background-size:contain; */
+    height: 200px;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+} 
+
+.achica-titulo{
+    color:red;
+    width:70%;
+    margin:0px 250px;
+    text-align:center; 
+    font-size: 2em ;
+    text-shadow:5px 5px white;
+    animation:colores 5s 4;
+}
+.preguntas{
+   margin-left: 460px;
+   margin-top: 90px; 
+}
+
+.preguntas ul li{
+    display:inline;
+    margin: 20px 80px;
+    padding-top: 20px;
+    list-style: none;
+    text-decoration:none;
+}
+
+.preguntas ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.preguntas ul li a:hover{
+    text-decoration:none;
+    color:red;
+}
+    
+
+.tarjeta{
+    margin-left:700px;
+    margin-top:150px;
+    width: 400px;
+    height:500px;
+    border: 2px solid gray;
+    border-radius: 8px ;
+    background-color:black;
+    position:relative;
+    z-index: 1; 
+    padding: 2px;
+    box-shadow: 5px 5px 10px blue, -5px -5px 10px blue;
+         
+}
+
+h2{color:white;
+   margin-top:10px;
+   text-align: center; 
+}
+
+.imagen{
+    width: 95%;
+    height:300px;
+    border-radius: 8px 8px 0px 0px;
+    margin:40px 10px; 
+}
+
+.intro{
+    color:white;
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+.tarjeta2{
+    margin:100px 580px;
+    width: 600px;
+    height:100px;
+    border: 2px solid blue;
+    border-radius: 8px ;
+    background-color: blue;
+    color:white;
+    position:relative;
+    z-index: 1; 
+    padding: 2px;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px GRAY;
+}
+
+.resalta{font-weight: bold;}
+
+.footer{
+       margin-top:100px;
+       background-color: black;
+       height:50px;
+       color:white;
+       text-align:center;
+}
+
+/* animacion */
+     
+@keyframes colores { 
+    0% {
+       opacity: 1;
+       color: blue;
+    }
+    50% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 1;
+    }
+}
+    
+
+
+
+
